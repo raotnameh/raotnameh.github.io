@@ -1,6 +1,6 @@
 # main links
 main:
-    title: "CV"
+  - title: "CV"
     url: https://drive.google.com/file/d/1FeEqDpjqn2cruEptiYzQpci2SIN06N1z/view?usp=sharing
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
