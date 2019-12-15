@@ -63,8 +63,8 @@ naver_site_verification  :
 # Social Sharing
 twitter:
   username               : raotnameh
-facebook:
-  username               :
+website:
+  username               : https://sites.google.com/view/hemant-yadav/
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -91,7 +91,7 @@ author:
   name             : Hemant Yadav
   avatar           : #"/assets/images/IMG.jpg"
   bio              : "Hang in there you will understand"
-  location         :  #
+  location         :  India
   email            : "raotnameh@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -117,7 +117,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  website          :  "https://sites.google.com/view/hemant-yadav"
 
 theme: minimal-mistakes-jekyll
 
