@@ -16,7 +16,7 @@ toc: false
 ---
 
 
-Being in the final year can be stressful, you have to look out for a job (work on the thesis). Eventually, that's what most people settle for. I'm too in my final year and unlike everyone else in my situation, I'm not thinking about getting a job. Even if I would I'm sure it'll be related to research. And I usually get asked a lot about why do I want to pursue research, why not go for a job. And in my mind, I'm like **why not**, but I don't think it is that simple. So let me explain.
+Being in the final year can be stressful, you have to look out for a job. Eventually, that's what most people settle for. I'm too in my final year and unlike everyone else in my situation, I'm not thinking about getting a job. Even if I would I'm sure it'll be related to research. And I usually get asked a lot about why do I want to pursue research, why not go for a job. And in my mind, I'm like **why not**, but I don't think it is that simple. So let me explain.
 
 For starting off, I love my research more than I thought I would in my first year at college. Because like everyone else I thought it to be boring and without having any practical use case.
 '''
@@ -30,7 +30,8 @@ Another question that comes in mind is that:
 
 ### Why not have job experience before it?
 
-It might seem a tempting option and a more practical one too. But for anyone who is familiar with Deep Learning that AI is finally having its moment. People are finally starting to understand how it works and because of that, there are several unsolved problems coming up. And for someone who has been working on them, it is too big of an opportunity to miss. 
+It might seem a tempting option and a more practical one too. But for anyone who is familiar with Deep Learning, knows that AI is finally having its moment. People are finally starting to understand how it works and because of that, there are several unsolved problems coming up. And for someone who has been working on them, it is too big of an opportunity to miss.  
+ 
 For anyone not familiar with Deep Learning, it similar to the famous, **Diffusion of innovations theory** and currently we are close to the innovators and the early adopters. Which is a great time situation to be in.
 
 <p align='center'>
