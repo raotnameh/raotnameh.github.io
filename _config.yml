@@ -18,7 +18,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "raotnameh/raotnameh.github.io"
 teaser                   : #"/assets/images/a.jpg"
 breadcrumbs            : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 100
 comments:
   provider               : "facebook" #"disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
