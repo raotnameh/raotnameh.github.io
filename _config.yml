@@ -20,10 +20,10 @@ teaser                   : #"/assets/images/a.jpg"
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 100
 comments:
-  provider               : "utterances" #facebook" #"disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : facebook" #"disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   utterances:
-    theme                : "github-light" # "github-dark"
-    issue_term           : "pathname"
+    theme                : #"github-light" # "github-dark"
+    issue_term           : #"pathname"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
