@@ -20,7 +20,7 @@ teaser                   : #"/assets/images/a.jpg"
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 100
 comments:
-  provider               : facebook" #"disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "facebook" #"disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
