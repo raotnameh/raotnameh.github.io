@@ -20,15 +20,15 @@ teaser                   : #"/assets/images/a.jpg"
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               :"facebook" #, "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : #meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 #, e.g.: meta.discourse.org
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    #https://developers.facebook.com/docs/plugins/comments
-    appid                : # optional
-    num_posts            : #5 (default)
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
     colorscheme          :  "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
