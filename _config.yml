@@ -119,7 +119,7 @@ author:
   xing             :
   website          :  "https://sites.google.com/view/hemant-yadav"
 
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-minimal
 
 # Reading Files
 include:
