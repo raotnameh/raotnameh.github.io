@@ -1,2 +1,4 @@
 name: Hemant Yadav, PhD scholar at MIDAS, IIITD
 markdown: kramdown
+
+theme: jekyll-theme-minimal
