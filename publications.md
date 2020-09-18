@@ -3,8 +3,7 @@ layout: page
 title: Publications
 ---
 
-*I may write more detailed blog posts about some of them. Otherwise, all of these point to the main publication site.
-
+*I may write more detailed blog posts about some of them. 
 
 - Hemant Yadav , Sreyan Ghosh, Yi Yu, and Rajiv Ratn Shah. 2020. [End-to-end Named Entity Recognition from English
                 Speech](https://arxiv.org/abs/2005.11184). Accepted at [InterSpeech](http://www.interspeech2020.org/) 2020. 
