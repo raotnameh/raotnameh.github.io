@@ -8,10 +8,13 @@ I am a Ph.D. Scholar at [IIIT Delhi](https://iiitd.ac.in/). I work with [Dr. Raj
 My current research interest are: 
 
 1. Studying how to make DL based systems robust to unwanted features (noise, accents, gender, age, etc), and
-2. Working with low resource. What I mea when I say low resource is: learning Robust represantation of low frequency important examples and secondly, learning Genralize represantations froma on low resource language. 
+2. Working with low resource. What I mean when I say low resource?
+   1. Learning Robust representations of low frequency important examples in a large dataset and, 
+   2. Secondly, learning generalize representations from a on low resource language/dataset particulary in Speech (I,m also         intersted in leveraging multiple datasets to learn general representations ). 
 
-I'm applying these 2 research ideas on Speech Recognition Systems (for now at least). In the past I have worked on standard DL based speech recognition systems and End-2-End named entity recognition (NER) from speech directly. I also enjoy working on textual dataset based DL systems. Please have a look at my publications for more details. In my spare time, I think how can everyting be defined in therms of different  dimensions. 
-Please get in touch if you want to collaborate with me on some interesting research opportunities. My email ID is mohits [at] iiitd [dot] ac [dot] in.
+I'm applying these 2 research ideas on Speech Recognition Systems (for now at least). In the past I have worked on standard DL based speech recognition systems and End-2-End named entity recognition (NER) from speech. I also enjoy working on textual dataset based DL systems. Please have a look at my publications for more details. In my spare time, I think how can everyting be defined in terms of different  dimensions. 
+
+Please get in touch if you want to collaborate with me on some interesting research opportunities. My email ID is hemantya [at] iiitd [dot] ac [dot] in.
 
 # News/Publications
 
@@ -22,5 +25,5 @@ Please get in touch if you want to collaborate with me on some interesting resea
                 Shah. [MIDAS at SemEval-2020 Task 10: Emphasis Selection using Label Distribution Learning and Contextual
                 Embeddings](https://drive.google.com/file/d/1sstpC23HZoR_3hEkfJn5eH8xig0VaOXd/view). Accepted at [COLING](https://coling2020.org/) 2020.
 - [28/06/2019] Ranjodh Singh, Hemant Yadav , Mohit Sharma, Sandeep Gosain, and Rajiv Ratn Shah. 2019. [AUTOMATIC SPEECH
-RECOGNITION FOR REAL TIME SYSTEMS](https://drive.google.com/file/d/18j58woXz5WUgkHaOO3b7byRWck5Oyzg7/view). In Proceedings of The Fifth IEEE International Conference on Multimedia
-Big Data ([IEEE BigMM](http://bigmm2019.org/) 2019).
+                RECOGNITION FOR REAL TIME SYSTEMS](https://drive.google.com/file/d/18j58woXz5WUgkHaOO3b7byRWck5Oyzg7/view). In Proceedings of The Fifth IEEE International Conference on Multimedia
+                Big Data ([IEEE BigMM](http://bigmm2019.org/) 2019).
