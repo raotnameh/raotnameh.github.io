@@ -10,7 +10,7 @@ Here is a list of courses that I have/am taken/taking during my Ph.D..
 #### Advance Machine Learning
 Currently taking this course. 
 
-### Natural Lamguage Processing
+### Natural Language Processing
 Currently taking this course. 
 
 ## Teaching Assistantship at IIIT Delhi
