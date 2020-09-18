@@ -22,3 +22,9 @@ Please get in touch if you want to collaborate with me on some interesting resea
 - [26/07/2020] [End-to-end Named Entity Recognition from English Speech](https://arxiv.org/abs/2005.11184). Accepted at [InterSpeech](http://www.interspeech2020.org/) 2020. 
 - [28/06/2020] [MIDAS at SemEval-2020 Task 10: Emphasis Selection using Label Distribution Learning and Contextual Embeddings](https://drive.google.com/file/d/1sstpC23HZoR_3hEkfJn5eH8xig0VaOXd/view). Accepted at [COLING](https://coling2020.org/) 2020.
 - [28/06/2019] [AUTOMATIC SPEECH RECOGNITION FOR REAL TIME SYSTEMS](https://drive.google.com/file/d/18j58woXz5WUgkHaOO3b7byRWck5Oyzg7/view). In Proceedings of The Fifth IEEE International Conference on Multimedia Big Data ([IEEE BigMM](http://bigmm2019.org/) 2019).
+
+
+## Links
+[GitHub](https://github.com/raotnameh)
+[twitter](https://mobile.twitter.com/raotnameh)
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=c1W_q7wAAAAJ&view_op=list_works&citft=1&citft=2&citft=3&email_for_op=raotnameh%40gmail.com&authuser=1&gmla=AJsN-F4UHp3xZh0-jPkynKELHQH_PaLtzht5c17MSw8kRYyjeHzkewMHBRdaaJVVJIKB6wiOPgrtvk94W2e7mzfVAM14dcp8xMhMr9AU-LMlB7jqkfEfQT_jzgzbmob53QhhqHXIlaPA_JxJCZ2O-3KDWNNgdOug3lhhUUOuNY7kve2AWowPz17qHdPGLovX8mof7O-8v579TUjqoz6RxdDkWBFUdZZh51v4q7aVeQ84JfdUmz3yaQcLPcXr8SlRYFAghuzTUiu0-3U2tlWY0me7iXU7EEJ_kQ)
