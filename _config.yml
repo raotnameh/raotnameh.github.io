@@ -1,8 +1,8 @@
 # Setup
 title:               Dimensions (1D, 2D, 3D, ..., nD) interest me.
 tagline:             Hemant's Blog
-description:         I like to look upto SHIVA whenever I\'m confused.
-url:                 https://raotnameh.github.io/
+description:         I like to look upto SHIVA whenever I'm confused.
+url:                 https://raotnameh.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
@@ -10,7 +10,7 @@ permalink:           pretty
 # About/contact
 author:
   name:       Hemant Yadav       
-  url:        https://raotnameh.github.io/
+  url:        https://raotnameh.github.io
   email:      hemantya@iiitd.ac.in
 
 # Gems
