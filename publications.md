@@ -3,7 +3,7 @@ layout: page
 title: Publications
 ---
 
-Here is a list of my publications that I was involved in with a brief description. I may write more detailed blog posts about some of them. Otherwise, all of these point to the main publication site.
+*I may write more detailed blog posts about some of them. Otherwise, all of these point to the main publication site.
 
 
 - Hemant Yadav , Sreyan Ghosh, Yi Yu, and Rajiv Ratn Shah. 2020. [End-to-end Named Entity Recognition from English
