@@ -1,17 +1,17 @@
 ---
 layout: single
-header:
-  overlay_color: "#333"
-  teaser: /assets/images/research/img.png
+# header:
+#   overlay_color: "#333"
+#   teaser: /assets/images/research/img.png
 title:  "Why did I decide to pursue research over Job? "
-excerpt: "Random thoughts"
-breadcrumbs: true
-share: false
-#permalink: /hello/
-date:    2018-07-1 16:00:00 -6000
-#date:   2015-11-17 16:16:01 -0600
-#categories: jekyll update
-toc: false
+# excerpt: "Random thoughts"
+# breadcrumbs: true
+# share: false
+# #permalink: /hello/
+# date:    2018-07-1 16:00:00 -6000
+# #date:   2015-11-17 16:16:01 -0600
+# #categories: jekyll update
+# toc: false
 
 ---
 
