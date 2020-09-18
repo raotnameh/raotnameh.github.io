@@ -5,13 +5,15 @@ title: Publications
 
 Here is a list of my publications that I was involved in with a brief description. I may write more detailed blog posts about some of them. Otherwise, all of these point to the main publication site.
 
-- [SpotFake+: A Multimodal Framework for Fake News Detection via Transfer Learning, AAAI 2020 Student Abstract.](https://www.aaai.org/Papers/AAAI/2020GB/SA-SinghalS.676.pdf)
-First work on multimodal fake news detection using images and text using XLNet and VGG pre-trained networks.
 
-- [Analysis of Parliamentary Debate Transcripts Using Community-Based Graphical Approaches, AAAI 2020 Student Abstract](https://www.aaai.org/Papers/AAAI/2020GB/SA-BhavanA.685.pdf) Sentiment analysis on UK Parliament debate transcripts using graphs methods. 
-
-- [Automatic Speech Recognition for Real-Time Systems, IEEE BigMM 2019 Industry Track](https://ieeexplore.ieee.org/abstract/document/8919271)
-Describes our work on making a classical and deep learning-based ASR system for a real-time production environment, in collaboration with Humonics Global.
-
-- [Deep Learning Approaches for Speech Emotion Recognition, Springer Deep Learning-Based Approaches for Sentiment Analysis](https://link.springer.com/chapter/10.1007/978-981-15-1216-2_10)
-A survey on various deep learning approaches for speech emotion recognition. 
+- Hemant Yadav , Sreyan Ghosh, Yi Yu, and Rajiv Ratn Shah. 2020. [End-to-end Named Entity Recognition from English
+                Speech](https://arxiv.org/abs/2005.11184). Accepted at [InterSpeech](http://www.interspeech2020.org/) 2020. 
+- Sarthak Anand, Pradyumna Gupta, Hemant Yadav , Debanjan Mahata, Rakesh Gosangi, Raymond Zhang, and Rajiv Ratn
+                Shah. [MIDAS at SemEval-2020 Task 10: Emphasis Selection using Label Distribution Learning and Contextual
+                Embeddings](https://drive.google.com/file/d/1sstpC23HZoR_3hEkfJn5eH8xig0VaOXd/view). Accepted at [COLING](https://coling2020.org/) 2020.
+- Ranjodh Singh, Hemant Yadav , Mohit Sharma, Sandeep Gosain, and Rajiv Ratn Shah. 2019. [AUTOMATIC SPEECH
+                RECOGNITION FOR REAL TIME SYSTEMS](https://drive.google.com/file/d/18j58woXz5WUgkHaOO3b7byRWck5Oyzg7/view). In Proceedings of The Fifth IEEE International Conference on Multimedia
+                Big Data ([IEEE BigMM](http://bigmm2019.org/) 2019).
+- Hemant Yadav , Mohak Chawla, Pradeep Khanna. 2017. [Development of a Mechanical Rotary Part Feeding System with
+                Performance Analysis](http://www.ijirset.com/upload/2017/february/25_DEVELOPMENT.pdf). In Proceedings of International Journal of Innovative Research in Science, Engineering and
+                Technology ([IJIRSET 2017](http://www.ijirset.com/) ) (Impact Factor 7.089).
