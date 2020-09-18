@@ -1,8 +1,8 @@
 # Setup
-title:               Dimensions interest me.
+title:               Dimensions (1D, 2D, 3D, ..., nD) interest me.
 tagline:             Mohit's Blog
 #description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-description:         'Musings about things which I find exciting and some personal experiences.'
+description:         'I like to look upto SHIVA whenever I'm confused.'
 url:                 https://raotnameh.github.io
 baseurl:             ''
 paginate:            5
@@ -10,9 +10,9 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              
+  url:               
+  email:             
 
 # Gems
 plugins:
