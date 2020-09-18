@@ -16,7 +16,7 @@ I'm applying these 2 research ideas on Speech Recognition Systems (for now at le
 
 Please get in touch if you want to collaborate with me on some interesting research opportunities. My email ID is hemantya [at] iiitd [dot] ac [dot] in.
 
-# News/
+# News
 
 - [01/09/2020] Received Interspeech-2020 grant.
 - [26/07/2020] [End-to-end Named Entity Recognition from English Speech](https://arxiv.org/abs/2005.11184). Accepted at [InterSpeech](http://www.interspeech2020.org/) 2020. 
