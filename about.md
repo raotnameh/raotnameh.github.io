@@ -25,6 +25,6 @@ Please get in touch if you want to collaborate with me on some interesting resea
 
 
 ## Links
-[GitHub](https://github.com/raotnameh)
-[twitter](https://mobile.twitter.com/raotnameh)
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=c1W_q7wAAAAJ&view_op=list_works&citft=1&citft=2&citft=3&email_for_op=raotnameh%40gmail.com&authuser=1&gmla=AJsN-F4UHp3xZh0-jPkynKELHQH_PaLtzht5c17MSw8kRYyjeHzkewMHBRdaaJVVJIKB6wiOPgrtvk94W2e7mzfVAM14dcp8xMhMr9AU-LMlB7jqkfEfQT_jzgzbmob53QhhqHXIlaPA_JxJCZ2O-3KDWNNgdOug3lhhUUOuNY7kve2AWowPz17qHdPGLovX8mof7O-8v579TUjqoz6RxdDkWBFUdZZh51v4q7aVeQ84JfdUmz3yaQcLPcXr8SlRYFAghuzTUiu0-3U2tlWY0me7iXU7EEJ_kQ)
+- [GitHub](https://github.com/raotnameh)
+- [twitter](https://mobile.twitter.com/raotnameh)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=c1W_q7wAAAAJ&view_op=list_works&citft=1&citft=2&citft=3&email_for_op=raotnameh%40gmail.com&authuser=1&gmla=AJsN-F4UHp3xZh0-jPkynKELHQH_PaLtzht5c17MSw8kRYyjeHzkewMHBRdaaJVVJIKB6wiOPgrtvk94W2e7mzfVAM14dcp8xMhMr9AU-LMlB7jqkfEfQT_jzgzbmob53QhhqHXIlaPA_JxJCZ2O-3KDWNNgdOug3lhhUUOuNY7kve2AWowPz17qHdPGLovX8mof7O-8v579TUjqoz6RxdDkWBFUdZZh51v4q7aVeQ84JfdUmz3yaQcLPcXr8SlRYFAghuzTUiu0-3U2tlWY0me7iXU7EEJ_kQ)
