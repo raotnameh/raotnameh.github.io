@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 # header:
 #   overlay_color: "#333"
 #   teaser: /assets/images/research/img.png
