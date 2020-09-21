@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Interesting Articles and Resources
+title: My current research focus
 ---
 
 Here I list down articles and resources which I found interesting and useful. I will highly recommend going through these.
