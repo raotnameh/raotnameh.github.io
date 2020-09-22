@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Coursework and Teaching
+title: Coursework
 ---
 
 Here is a list of courses that I have/am taken/taking during my Ph.D.. 
@@ -13,7 +13,8 @@ Currently taking this course.
 ### Natural Language Processing
 Currently taking this course. 
 
-## Teaching Assistantship at IIIT Delhi
+<!-- 
+## Teaching Assistantship at IIIT Delhi -->
 
 
 <!---## Courses Taken in Personal Time
