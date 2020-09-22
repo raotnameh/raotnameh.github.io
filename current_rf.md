@@ -20,11 +20,11 @@ Without further ado, let me be formal and let you in the problems I'm trying to 
 2. Capable of learning robust probability distribution using small amounts of data.
 
 Let's elaborate these 2 statement, I just made. 
-* Firstly, If we can learn an invariant representation[^ref2],[^ref3], example w.r.t. to gender (male/female in case f an ASR system) then a model trained on a dataset which has majority of training examples male recordings the, we expect it to work as good as on female recordings. Let's take an another example, the task is to differentiate between different types of chairs. If we learn an invariant representaion w.r.t, to the different pose/orientations of the same chair, then the trained model would be more robust to different orientations of the input data(chairs in our case).
+* Firstly, If we can learn an invariant representation[^ref2],[^ref3], example w.r.t. to gender (male/female in case of an ASR system) then a model trained on a dataset which has majority of training examples male recordings the, we expect it to work as good as on female recordings. Let's take an another example, the task is to differentiate between different types of chairs. If we learn an invariant representaion w.r.t, to the different pose/orientations of the same chair, then the trained model would be more robust to different orientations of the input data(chairs in our case).
 * Secondly, A model can learn robust representations given a specific task using a small dataset. If the dataset is free of unwanted nuisances and biases. I talk why is this true? later in detail. Just to give a hint to the reader, it's because the input feature space is reduced.
 
 ## Solutions?
-Both of these can be achieved if we can somehow tell a neural network to learn a masking function in such a way to:
+Let's talk about 2 possible solutions. We need to learn invariant representation w.r.t to unwanted nuisances and biasesms I mentioned areBoth of these can be achieved if we can somehow tell a neural network to learn a masking function in such a way to:
 Focus on retaining specific input features which are relevant for the specific task, thus achieving invariance to other subset features or, 
 Focus on removing specific input features which are not relevant for the task. (preliminary results are promising)
 It is easier to tell a neural network what to remove from the input representation using adversarial forgetting than what not to. 
