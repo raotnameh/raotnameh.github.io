@@ -29,13 +29,22 @@ Let's talk about the possible solutions.
     * Focus on retaining specific input features which are relevant for the specific task, thus achieving invariance to other subset input features or, 
     * Focus on removing[^ref1] specific input features which are not relevant for the task. (preliminary [experiments](#experimentations) using this approach are promising)
 It is easier to tell a neural network what to remove from the input representation using adversarial forgetting[^ref1] than what not to. 
+
 <a name="reason">
 * Secondly, The same masking function can be used for different languages to remove these unwanted biases and nuisances (transfer learning). In the case of low resource languages/dataset, it would be instrumental.
 </a>
-We can think of the masking fucntin as an preprocessing step or a seried of preprcoseeing steps, which masks out the unwanted nuisances and biases from the input space. My current research focus revolves around answering/utilizing these directions in making DL based systems more robust to the problems I mentioned. 
+
+We can think of the masking function as a preprocessing step before passing it to the main task, which masks out the unwanted nuisances and biases from the input space. My **current-research** focus revolves around answering/utilizing these directions in making DL based systems more robust to the problems I mentioned. 
 
 ## Experimentations 
-All the Experiments are done with an assumption that speech recognition is the primary tasl and anyting else is the secondary task. Thus masking out the information required for the secondary task would not affect the primanry task.
+All the Experiments are done with an assumption that transcribing a speech is the primary task and anything else is the secondary task (classifying the gender and accent of the speech utterance). Thus masking out the information required for the secondary task, which would not affect the primary task.
+
+Architecture choice is based on this implementation[^ref1]. In place of a the predictor (speech recognition in our case) we use DS2[^ref4] module. The dataset used is CommonVoice verison 1[^data1]. word error rate (WER) metric is used to compare the results. 
+
+Input        | WER   |
+-----------------------
+Normal       | -
+Masked-input | -
 
 ## Importance to the DL reserach community?  
 From my understanding, most of the current research in DL focuses on learning a probability distribution over an output (y) given an input dataset (x) using a neural network (NN) s.t., 
@@ -55,7 +64,8 @@ The research direction that I am proposing can be applied to any existing DL bas
 [^ref1]: [Invariant Representations through Adversarial Forgetting](https://arxiv.org/pdf/1911.04060.pdf) 
 [^ref2]: [Learning Noise-Invariant Representations for Robust Speech Recognition](https://arxiv.org/pdf/1807.06610.pdf)
 [^ref3]: [Invariant representation learning for robust deep networks](https://assets.amazon.science/ba/d7/902f6d6c4bd6812565e2b9eca667/invariant-representation-learning-for-robust-deep-networks.pdf)
-
+[^ref4]: [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)
+[^data1]: [CommonVoice version 1 dataset](https://common-voice-data-download.s3.amazonaws.com/cv_corpus_v1.tar.gz)
 
 *Note: Preliminary Experiments are done on speech-based systems if any.*
 
