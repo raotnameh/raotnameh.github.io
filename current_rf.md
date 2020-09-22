@@ -30,7 +30,7 @@ Let's talk about the possible solutions.
     * Focus on removing[^ref1] specific input features which are not relevant for the task. (preliminary experiments using this approach[^results] are promising)
 It is easier to tell a neural network what to remove from the input representation using adversarial forgetting[^ref1] than what not to. 
 
-* [^less-data]: Secondly, The same masking function can be used for different languages to remove these unwanted biases and nuisances (transfer learning). In the case of low resource languages/dataset, it would be instrumental.
+* Secondly [^less-data]:, The same masking function can be used for different languages to remove these unwanted biases and nuisances (transfer learning). In the case of low resource languages/dataset, it would be instrumental.
   
 We can think of the masking fucntin as an preprocessing step or a seried of preprcoseeing steps, which masks out the unwanted nuisances and biases from the input space. My current research focus revolves around answering/utilizing these directions in making DL based systems more robust to the problems I mentioned. 
 
