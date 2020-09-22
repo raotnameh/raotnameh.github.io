@@ -24,10 +24,10 @@ Let's elaborate these 2 statement, I just made.
 * Secondly, A model can learn robust representations given a specific task using a small dataset. If the dataset is free of unwanted nuisances and biases. I talk why is this true? later in detail. Just to give a hint to the reader, it's because the input feature space is reduced.
 
 ## Solutions?
-Let's talk about 2 possible solutions. 
+Let's talk about the possible solutions. 
 * Firstly, We need to learn an invariant representation w.r.t to unwanted nuisances and biases (gender, accent in case of ASR or orientation/lighting in case of chair classification task) present in the dataset such that their is no or minimum loss of information from the input given teh main task (transcribing audios in case of an ASR or classifying the chairs). This can be achieved if we can learn a masking fuction in such a way to: 
-    * Focus on retaining specific input features which are relevant for the specific task, thus achieving invariance to other subset features or, 
-    * Focus on removing specific input features which are not relevant for the task. (preliminary results are promising)
+    * Focus on retaining specific input features which are relevant for the specific task, thus achieving invariance to other subset input features or, 
+    * Focus on removing[^ref1] specific input features which are not relevant for the task. (preliminary results are promising)
 It is easier to tell a neural network what to remove from the input representation using adversarial forgetting than what not to. 
 
 * Secondly, Both of these can be achieved if we can somehow tell a neural network to learn a masking function in such a way to:
