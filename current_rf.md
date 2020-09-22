@@ -3,7 +3,8 @@ layout: page
 title: My current research focus
 ---
 
-- *Note: I take automatic speech recogntion (ASR) as an example to explain, because that's how I stumbled upon these problems (biased present in this article). But the problems are same in any system which uses DL as a core module function to learn the probability distribution over the output. I'm sorry if some of you are not able to connect to the example. If you wish to get a basic idea what ASR is please look at my other [post](https://raotnameh.github.io/2019/01/07/ASR/) on ASR.*
+- *Note1: I take automatic speech recogntion (ASR) as an example to explain, because that's how I stumbled upon these problems (biased present in this article). But the problems are same in any system which uses DL as a core module function to learn the probability distribution over the output. I'm sorry if some of you are not able to connect to the example. If you wish to get a basic idea what ASR is please look at my other [post](https://raotnameh.github.io/2019/01/07/ASR/) on ASR.*
+- *Note2: Preliminary Experiments are done on speech-based systems if any.*
 
 
 ## Introduction
