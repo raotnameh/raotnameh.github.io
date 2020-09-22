@@ -21,13 +21,13 @@ Without further ado, let me be formal and let you in the problems I'm trying to 
 
 Let's elaborate these 2 statement, I just made. 
 * Firstly, If we can learn an invariant representation[^ref2],[^ref3], example w.r.t. to gender (male/female in case of an ASR system) then a model trained on a dataset which has majority of training examples male recordings the, we expect it to work as good as on female recordings. Let's take an another example, the task is to differentiate between different types of chairs. If we learn an invariant representaion w.r.t, to the different pose/orientations of the same chair, then the trained model would be more robust to different orientations of the input data(chairs in our case).
-* Secondly, A model can learn robust representations given a specific task using a small dataset. If the dataset is free of unwanted nuisances and biases. I talk why is this true, [later in detail](#disc). Just to give a hint to the reader, it's because the input feature space is reduced.
+* Secondly, A model can learn robust representations given a specific task using a small dataset. If the dataset is free of unwanted nuisances and biases. I talk why is this true, [later in detail](#reason). Just to give a hint to the reader, it's because the input feature space is reduced.
 
 ## Solutions?
 Let's talk about the possible solutions. 
 * Firstly, We need to learn an invariant representation w.r.t to unwanted nuisances and biases (gender, accent in case of ASR or orientation/lighting in case of chair classification task) present in the dataset such that their is no or minimum loss of information from the input given teh main task (transcribing audios in case of an ASR or classifying the chairs). This can be achieved if we can learn a **masking fuction** in such a way to: 
     * Focus on retaining specific input features which are relevant for the specific task, thus achieving invariance to other subset input features or, 
-    * Focus on removing[^ref1] specific input features which are not relevant for the task. (preliminary experiments using this approach[^ref5] are promising)
+    * Focus on removing[^ref1] specific input features which are not relevant for the task. (preliminary [experiments](#experimentations) using this approach are promising)
 It is easier to tell a neural network what to remove from the input representation using adversarial forgetting[^ref1] than what not to. 
 <a name="reason">
 * Secondly, The same masking function can be used for different languages to remove these unwanted biases and nuisances (transfer learning). In the case of low resource languages/dataset, it would be instrumental.
