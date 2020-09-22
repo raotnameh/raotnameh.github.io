@@ -35,7 +35,7 @@ It is easier to tell a neural network what to remove from the input representati
 We can think of the masking fucntin as an preprocessing step or a seried of preprcoseeing steps, which masks out the unwanted nuisances and biases from the input space. My current research focus revolves around answering/utilizing these directions in making DL based systems more robust to the problems I mentioned. 
 
 ## experimentations 
-[^reulsts]: All the Experiments are done with an assumption that speech recognition is the primary tasl and anyting else is the secondary task. Thus masking out the information required for the secondary task would not affect the primanry task.
+[^results]: All the Experiments are done with an assumption that speech recognition is the primary tasl and anyting else is the secondary task. Thus masking out the information required for the secondary task would not affect the primanry task.
 
 ## Importance to the DL reserach community?  
 From my understanding, most of the current research in DL focuses on learning a probability distribution over an output (y) given an input dataset (x) using a neural network (NN) s.t., 
