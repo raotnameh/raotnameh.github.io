@@ -25,12 +25,12 @@ Let's elaborate these 2 statement, I just made.
 
 ## Solutions?
 Let's talk about the possible solutions. 
-* Firstly, We need to learn an invariant representation w.r.t to unwanted nuisances and biases (gender, accent in case of ASR or orientation/lighting in case of chair classification task) present in the dataset such that their is no or minimum loss of information from the input given teh main task (transcribing audios in case of an ASR or classifying the chairs). This can be achieved if we can learn a masking fuction in such a way to: 
+* Firstly, We need to learn an invariant representation w.r.t to unwanted nuisances and biases (gender, accent in case of ASR or orientation/lighting in case of chair classification task) present in the dataset such that their is no or minimum loss of information from the input given teh main task (transcribing audios in case of an ASR or classifying the chairs). This can be achieved if we can learn a **masking fuction** in such a way to: 
     * Focus on retaining specific input features which are relevant for the specific task, thus achieving invariance to other subset input features or, 
     * Focus on removing[^ref1] specific input features which are not relevant for the task. (preliminary experiments using this approach[^results] are promising)
 It is easier to tell a neural network what to remove from the input representation using adversarial forgetting[^ref1] than what not to. 
 
-* [^less-data]: Secondly, The same masking function can be used for different languages to remove these unwanted biases and nuisances (transfer learning). In the case of low resource languages, it would be instrumental.
+* [^less-data]: Secondly, The same masking function can be used for different languages to remove these unwanted biases and nuisances (transfer learning). In the case of low resource languages/dataset, it would be instrumental.
   
 Both of these can be achieved if we can somehow tell a neural network to learn a masking function in such a way to:
 
