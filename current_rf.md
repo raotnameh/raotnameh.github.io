@@ -19,7 +19,9 @@ Without further ado, let me be formal and let you in the problems I'm trying to 
 1. Invariant to nuisances/noise and different types of biases (gender, race) present in a training dataset and, 
 2. Capable of learning robust probability distribution using small amounts of data.
 
-Let's elaborate these 2 statement, I just made. If we can learn an invariant representation[^ref2],[^ref3], example w.r.t. to gender (male/female) then a model trained on a dataset which has training examples which are male 
+Let's elaborate these 2 statement, I just made. 
+* Firstly, If we can learn an invariant representation[^ref2],[^ref3], example w.r.t. to gender (male/female in case f an ASR system) then a model trained on a dataset which has majority of training examples male recordings the, we expect it to work as good as on female recordings. Let's take an another example, the task is to differentiate between different types of chairs. If we learn an invariant representaion w.r.t, to the different angles of the same chair, then the trained model would be more robust to different orientations of the input data(chairs in our case).
+* Secondly, 
 
 ## Solutions?
 Both of these can be achieved if we can somehow tell a neural network to learn a masking function in such a way to:
