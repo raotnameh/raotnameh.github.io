@@ -4,7 +4,7 @@ tagline:             Hemant's Blog
 description:         I look upto SHIVA whenever I'm confused.
 url:                 https://raotnameh.github.io
 baseurl:             ''
-# paginate:            10
+paginate:            6
 permalink:           pretty
 
 # About/contact
