@@ -5,7 +5,6 @@ description:         I look upto SHIVA whenever I'm confused.
 url:                 https://raotnameh.github.io
 baseurl:             '/about'
 paginate:            5
-paginate_path: /page:num/
 permalink:           pretty
 
 # About/contact
