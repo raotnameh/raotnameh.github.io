@@ -7,15 +7,19 @@ title: My current research focus
 - *Note2: Preliminary Experiments are done on ASR system.*
 
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 ## Introduction
-Here I add updates on the experiments on my current research focus. You would be thinking, what is his resreach focus? TBH, it's nothing fancy but the insights I gained in my 2-3 years of AI journey. In this period I worked on several projects using deep learning (DL) on Speech and NLP related problems. While it was a nice feeling everytime I got a good accuracy or less word error rate (WER) in the case of an ASR system, I was really enjoying it (until it lasted....just kidding I still fell good everytime we get a better testing accuracy). This feeling led me to use DL here and there and everywhere. Anything you throw at me I'm gonna train a DL based model, that's how exhaustively I was applying it. I was really enjoying the *NOOB* feeling of knowing all about DL. All of this changed after I started testing the trained models on a real time testing examples (Which I was and I am still proud of...of course I'm talking about my trained models). The WER I was so proud of dropped and in some cases it as as if the output was random (the model was trained on male dominated voice samples and thus worked very poorly on female test recordings). Now you would be thinking, which project he is talking about? Well, all of this happend when I was working on a speech recognition project in collaboration with Humonics global pvt. ltd. The system was to be built for realtime use cases and it did not work as expected (I did not fell good for sometime, the models I was so proud of let me down in front of everyone). All of this, led me to debug the models and go back to the basics of math behind the models. Which in turn led me to understand their **shortcomings** and why I was facing all those **problems** during the deployment, which I hope to overcome during my Ph.D. at IIITD. 
+Here I add updates on the experiments on my current research focus. You would be thinking, what is his resreach focus? TBH, it's nothing fancy but the insights I gained in my 2-3 years of AI journey. In this period I worked on several projects using deep learning (DL) on Speech and NLP related problems. While it was a nice feeling everytime I got a good accuracy or less word error rate (WER) in case of an ASR, I was really enjoying it (until it lasted....just kidding I still fell good everytime we get a better testing accuracy). This feeling led me to use DL here and there and everywhere. Anything you throw at me I'm gonna train a DL based model, that's how exhaustively I was applying it. I was really enjoying the *NOOB* feeling of knowing all about DL. All of this changed after I started testing the trained models on a real time testing examples. The WER I was so proud of dropped and in some cases it as as if the output was jsut better than random (the model was trained on majority of male voice samples and thus worked very poorly on female test samples). Now you would be thinking, which project he is talking about? Well, all of this happend when I was working on a speech recognition project in collaboration with Humonics global pvt. ltd. The system was to be built for realtime use cases and it did not work as expected (I did not fell good for sometime, the models I was so proud of let me down). All of this, led me to debug the models and go back to the basics of math behind the models. Which in turn led me to understand their **shortcomings** and why I was facing all those **problems** during the deployment, which I hope to overcome during my Ph.D. at IIITD. 
 
 ## Problems?
 Without further ado, let me be formal and let you in the problems I'm trying to solve. So, what I propose is to train deep learning based system which are:
 1. Invariant to nuisances/noise and different types of biases (gender, race) present in a training dataset and, 
 2. Capable of learning robust probability distribution using small amounts of data.
 
-Let's elaborate these 2 statement, I just made. If we can learn an invariant representation w.r.t. to gender (male/female) then a model trained on a dataset which has training examples which are male 
+Let's elaborate these 2 statement, I just made. If we can learn an invariant representation[^ref1], example w.r.t. to gender (male/female) then a model trained on a dataset which has training examples which are male 
 
 ## Solutions?
 Both of these can be achieved if we can somehow tell a neural network to learn a masking function in such a way to:
@@ -40,8 +44,9 @@ The research direction that I am proposing can be applied to any existing DL bas
 
 
 ### References
-
-
+[^ref1]: [Invariant Representations through Adversarial Forgetting](https://arxiv.org/pdf/1911.04060.pdf) 
+[^ref2]: [Learning Noise-Invariant Representations for Robust Speech Recognition](https://arxiv.org/pdf/1807.06610.pdf)
+[^ref3]: [Invariant representation learning for robust deep networks](https://assets.amazon.science/ba/d7/902f6d6c4bd6812565e2b9eca667/invariant-representation-learning-for-robust-deep-networks.pdf)
 
 
 *Note: Preliminary Experiments are done on speech-based systems if any.*
