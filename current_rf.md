@@ -21,7 +21,7 @@ Without further ado, let me be formal and let you in the problems I'm trying to 
 
 Let's elaborate these 2 statement, I just made. 
 * Firstly, If we can learn an invariant representation[^ref2],[^ref3], example w.r.t. to gender (male/female in case f an ASR system) then a model trained on a dataset which has majority of training examples male recordings the, we expect it to work as good as on female recordings. Let's take an another example, the task is to differentiate between different types of chairs. If we learn an invariant representaion w.r.t, to the different angles of the same chair, then the trained model would be more robust to different orientations of the input data(chairs in our case).
-* Secondly, 
+* Secondly, A model can learn using small dataset if the input to it is a we need less amount of data if we c
 
 ## Solutions?
 Both of these can be achieved if we can somehow tell a neural network to learn a masking function in such a way to:
