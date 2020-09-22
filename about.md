@@ -10,9 +10,9 @@ My current research interest are:
 1. Studying how to make DL based systems robust to unwanted features (noise, accents, gender, age, etc), and
 2. Working with low resource. What I mean when I say low resource?
    1. Learning Robust representations of low frequency important examples in a large dataset and, 
-   2. Secondly, learning generalize representations from a on low resource language/dataset particulary in Speech (I,m also         intersted in leveraging multiple datasets to learn general representations ). 
+   2. Secondly, learning generalize representations from low resource language/dataset particulary in Speech (I,m also intersted in leveraging multiple datasets to learn general representations). 
 
-I'm applying these 2 research ideas on Speech Recognition Systems (for now at least). In the past I have worked on standard DL based speech recognition systems and End-2-End named entity recognition (NER) from speech. I also enjoy working on textual dataset based DL systems. Please have a look at my publications for more details. In my spare time, I think how can everyting be defined in terms of different  dimensions. 
+I'm applying these 2 research ideas on Speech Recognition Systems (at least for now). In the past I have worked on standard DL based speech recognition systems and End-2-End named entity recognition (NER) from speech. I also enjoy working on textual dataset based DL systems. Please have a look at my publications for more details. In my spare time, I think how can everyting be defined in terms of different  dimensions. 
 
 Please get in touch if you want to collaborate with me on some interesting research opportunities. My email ID is hemantya [at] iiitd [dot] ac [dot] in.
 
