@@ -3,7 +3,7 @@ layout: page
 title: Publications
 ---
 
-_All authors contributed equally\*_.
+_\* All authors contributed equally_.
   
 - Hemant Yadav , Sreyan Ghosh, Yi Yu, and Rajiv Ratn Shah. 2020. [End-to-end Named Entity Recognition from English
                 Speech](https://arxiv.org/abs/2005.11184). Accepted at [InterSpeech](http://www.interspeech2020.org/) 2020. 
@@ -16,3 +16,4 @@ _All authors contributed equally\*_.
 - Hemant Yadav , Mohak Chawla, Pradeep Khanna. 2017. [Development of a Mechanical Rotary Part Feeding System with
                 Performance Analysis](http://www.ijirset.com/upload/2017/february/25_DEVELOPMENT.pdf). In Proceedings of International Journal of Innovative Research in Science, Engineering and
                 Technology ([IJIRSET 2017](http://www.ijirset.com/) ) (Impact Factor 7.089).
+
