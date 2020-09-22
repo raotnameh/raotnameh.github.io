@@ -35,6 +35,9 @@ It is easier to tell a neural network what to remove from the input representati
 My current research focus revolves around answering/utilizing these directions in making DL based systems more robust to the problems I mentioned. 
 
 ## [^reulsts]: experimentations
+
+Experimentation is done on an ASR system.
+
 ## Importance to the DL reserach community?  
 From my understanding, most of the current research in DL focuses on learning a probability distribution over an output (y) given an input dataset (x) using a neural network (NN) s.t., 
 y = F(x); {F: NN},
