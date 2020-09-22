@@ -19,7 +19,7 @@ Without further ado, let me be formal and let you in the problems I'm trying to 
 1. Invariant to nuisances/noise and different types of biases (gender, race) present in a training dataset and, 
 2. Capable of learning robust probability distribution using small amounts of data.
 
-Let's elaborate these 2 statement, I just made. If we can learn an invariant representation[^ref1], example w.r.t. to gender (male/female) then a model trained on a dataset which has training examples which are male 
+Let's elaborate these 2 statement, I just made. If we can learn an invariant representation[^ref2],[^ref3], example w.r.t. to gender (male/female) then a model trained on a dataset which has training examples which are male 
 
 ## Solutions?
 Both of these can be achieved if we can somehow tell a neural network to learn a masking function in such a way to:
