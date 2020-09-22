@@ -42,7 +42,7 @@ All the Experiments are done with an assumption that transcribing a speech is th
 Architecture choice is based on this implementation[^ref1]. In place of a the predictor (speech recognition in our case) we use DS2[^ref4] module. The dataset used is CommonVoice verison 1[^data1]. word error rate (WER) metric is used to compare the results. 
 
 Input        | WER   |
-------------:|----------:
+:-----------:|:------:
 Normal       | -
 Masked-input | -
 
