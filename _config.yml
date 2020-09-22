@@ -3,7 +3,7 @@ title:               Dimensions interest me.
 tagline:             Hemant's Blog
 description:         I look upto SHIVA whenever I'm confused.
 url:                 https://raotnameh.github.io
-baseurl:             '/about'
+baseurl:             ''
 paginate:            6
 permalink:           pretty
 
