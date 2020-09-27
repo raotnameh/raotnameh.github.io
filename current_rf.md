@@ -3,7 +3,7 @@ layout: page
 title: My current research focus
 ---
 
-<font size="1">
+<font size="1em">
 
 + *Note1: I take automatic speech recogntion (ASR) as an example to explain, because that's how I stumbled upon these problems (biased present in this article). But the problems are same in any system which uses DL as a core module function to learn the probability distribution over the output. I'm sorry if some of you are not able to connect to the example. If you wish to get a basic idea what ASR is please look at my other [post](https://raotnameh.github.io/2019/01/07/ASR/) on ASR.*
   
@@ -18,7 +18,7 @@ title: My current research focus
 - [Experimentations](#experimentations)
 - [Importance to the DL reserach community?](#importance-to-the-dl-reserach-community)
 - [Possible applications?](#possible-applications)
-  - [References](#references)
+- [References](#references)
 
 <!-- vim-markdown-toc -->
 <script type="text/javascript" async
@@ -74,7 +74,7 @@ The research direction that I am proposing can be applied to any existing DL bas
 2. Explainability: High-risk, high stakes systems can be built robustly with easier explainability using this approach compared to standard end to end DL based systems.
 
 
-### References
+## References
 [^ref1]: [Invariant Representations through Adversarial Forgetting](https://arxiv.org/pdf/1911.04060.pdf) 
 [^ref2]: [Learning Noise-Invariant Representations for Robust Speech Recognition](https://arxiv.org/pdf/1807.06610.pdf)
 [^ref3]: [Invariant representation learning for robust deep networks](https://assets.amazon.science/ba/d7/902f6d6c4bd6812565e2b9eca667/invariant-representation-learning-for-robust-deep-networks.pdf)
