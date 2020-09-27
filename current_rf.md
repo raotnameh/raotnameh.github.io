@@ -60,7 +60,7 @@ Architecture choice is based on adversarial forgetting implementation[^ref1]. In
    + Second model is based on adversarial forgetting framework (WER/CER=0.764/0.384). 
 Both the models are compared on two different accents (India and New Zeland) which are not seen in training.  
 Input        | WER (IN/NZ)   | CER(IN/NZ) |
-:-----------:|:-------------:|-----------:|
+:-----------:|:-------------:|:----------:|
 Model1       | 0.994/0.991   | 0.819/0.801|
 Model2       | 0.895/0.767   | 0.542/0.390|
 
