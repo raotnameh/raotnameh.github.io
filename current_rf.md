@@ -7,6 +7,17 @@ title: My current research focus
 - *Note2: Preliminary Experiments are done on ASR system.*
 
 
+<!-- vim-markdown-toc GFM -->
+
+* [Introduction](#introduction)
+* [Problems?](#problems)
+* [Solutions?](#solutions)
+* [Experimentations](#experimentations)
+* [Importance to the DL reserach community?](#importance-to-the-dl-reserach-community)
+* [Possible applications?](#possible-applications)
+	* [References](#references)
+
+<!-- vim-markdown-toc -->
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
