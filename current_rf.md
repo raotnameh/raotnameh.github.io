@@ -3,19 +3,20 @@ layout: page
 title: My current research focus
 ---
 
+<font size="1">
 + *Note1: I take automatic speech recogntion (ASR) as an example to explain, because that's how I stumbled upon these problems (biased present in this article). But the problems are same in any system which uses DL as a core module function to learn the probability distribution over the output. I'm sorry if some of you are not able to connect to the example. If you wish to get a basic idea what ASR is please look at my other [post](https://raotnameh.github.io/2019/01/07/ASR/) on ASR.*
 + *Note2: Preliminary Experiments are done on ASR system.*
-
+</font>
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#introduction)
-* [Problems?](#problems)
-* [Solutions?](#solutions)
-* [Experimentations](#experimentations)
-* [Importance to the DL reserach community?](#importance-to-the-dl-reserach-community)
-* [Possible applications?](#possible-applications)
-	* [References](#references)
+- [Introduction](#introduction)
+- [Problems?](#problems)
+- [Solutions?](#solutions)
+- [Experimentations](#experimentations)
+- [Importance to the DL reserach community?](#importance-to-the-dl-reserach-community)
+- [Possible applications?](#possible-applications)
+  - [References](#references)
 
 <!-- vim-markdown-toc -->
 <script type="text/javascript" async
