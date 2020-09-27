@@ -58,6 +58,7 @@ Architecture choice is based on adversarial forgetting implementation[^ref1]. In
 1. Expermiment1: In this experiment we train Two different models on two accents combined (USA and England). Total dataset is around 20 hrs. 
    + First model is a simple DS2 implementation (WER/CER=0.777/0.388) and,
    + Second model is based on adversarial forgetting framework (WER/CER=0.764/0.384). 
+  
 Both the models are compared on two different accents (India and New Zeland) which are not seen in training.  
 
 Input        | WER (IN/NZ)   | CER(IN/NZ) |
