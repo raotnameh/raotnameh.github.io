@@ -34,7 +34,7 @@ Without further ado, let me be formal and let you in the problems I'm trying to 
 2. Capable of learning robust probability distribution using small amounts of data.
 
 Let's elaborate these 2 statement, I just made. 
-* Firstly, If we can learn an invariant representation[^ref2],[^ref3], example w.r.t. to gender (male/female in case of an ASR system) then a model trained on a dataset which has majority of training examples male recordings the, we expect it to work as good as on female recordings. Let's take an another example, the task is to differentiate between different types of chairs. If we learn an invariant representaion w.r.t, to the different pose/orientations of the same chair, then the trained model would be more robust to different orientations of the input data(chairs in our case).
+* Firstly, If we can learn an invariant representation[^ref2][^ref3] {example w.r.t. to gender (male/female in case of an ASR system)} then a model trained on a dataset which has majority of training examples male recordings the, we expect it to work as good as on female recordings. Let's take an another example, the task is to differentiate between different types of chairs. If we learn an invariant representaion w.r.t, to the different pose/orientations of the same chair, then the trained model would be more robust to different orientations of the input data(chairs in our case).
 * Secondly, A model can learn robust representations given a specific task using a small dataset. If the dataset is free of unwanted nuisances and biases. I talk why is this true, [later in detail](#reason). Just to give a hint to the reader, it's because the input feature space is reduced.
 
 ## Solutions?
@@ -53,12 +53,21 @@ We can think of the masking function as a preprocessing step before passing it t
 ## Experimentations 
 All the Experiments are done with an assumption that transcribing a speech is the primary task and anything else is the secondary task (classifying the gender and accent of the speech utterance). Thus masking out the information required for the secondary task, which would not affect the primary task.
 
-Architecture choice is based on this implementation[^ref1]. In place of a the predictor (speech recognition in our case) we use DS2[^ref4] module. The dataset used is CommonVoice verison 1[^data1]. word error rate (WER) metric is used to compare the results. 
+Architecture choice is based on adversarial forgetting implementation[^ref1]. In place of a the predictor (speech recognition in our case) we use DS2[^ref4] module. The dataset used is CommonVoice verison 1[^data1]. word error rate (WER) metric is used to compare the results. 
 
-Input        | WER   |
-:-----------:|:------:
-Normal       | -
-Masked-input | -
+1. Expermiment1: In this experiment we train Two different models on two accents combined (USA and England). Total dataset is around 20 hrs. 
+   + First model is a simple DS2 implementation (WER/CER=0.777/0.388) and,
+   + Second model is based on adversarial forgetting framework (WER/CER=0.764/0.384). 
+Both the models are compared on two different accents (India and New Zeland) which are not seen in training.  
+Input        | WER (IN/NZ)   | CER(IN/NZ) |
+:-----------:|:-------------:|-----------:|
+Model1       | 0.994/0.991   | 0.819/0.801|
+Model2       | 0.895/0.767   | 0.542/0.390|
+
+Both the models are trained on just only 20 hrs of speech. It's clearly visible model2 performs way better compares to model1. 
+
++ Note: We are in the process of visualizng the network output and in the meantime running experiments on gender and age and noise similar to accent on a large version of comon voice. 
+
 
 ## Importance to the DL reserach community?  
 From my understanding, most of the current research in DL focuses on learning a probability distribution over an output (y) given an input dataset (x) using a neural network (NN) s.t., 
