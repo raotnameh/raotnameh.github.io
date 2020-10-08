@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Coursework
+title: Interested-Links
 ---
 
 Here is a list of links that I found intersted. 
