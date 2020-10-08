@@ -5,13 +5,13 @@ title: My current research focus
 
 <!-- vim-markdown-toc GFM -->
 
-- [Introduction](#introduction)
-- [Problems?](#problems)
-- [Solutions?](#solutions)
-- [Experimentations](#experimentations)
-- [Importance to the DL reserach community?](#importance-to-the-dl-reserach-community)
-- [Possible applications?](#possible-applications)
-- [References](#references)
+* [Introduction](#introduction)
+* [Problems?](#problems)
+* [Solutions?](#solutions)
+* [Experimentations](#experimentations)
+* [Importance to the DL reserach community?](#importance-to-the-dl-reserach-community)
+* [Possible applications?](#possible-applications)
+* [References](#references)
 
 <!-- vim-markdown-toc -->
 <script type="text/javascript" async
@@ -92,5 +92,4 @@ The research direction that I am proposing can be applied to any existing DL bas
 [^ref4]: [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)
 [^data1]: [CommonVoice version 1 dataset](https://common-voice-data-download.s3.amazonaws.com/cv_corpus_v1.tar.gz)
 
-*Note: Preliminary Experiments are done on speech-based systems if any.*
 
