@@ -5,13 +5,13 @@ title: My current research focus
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#introduction)
-* [Problems?](#problems)
-* [Solutions?](#solutions)
-* [Experimentations](#experimentations)
-* [Importance to the DL reserach community?](#importance-to-the-dl-reserach-community)
-* [Possible applications?](#possible-applications)
-* [References](#references)
+- [Introduction](#introduction)
+- [Problems?](#problems)
+- [Solutions?](#solutions)
+- [Experimentations](#experimentations)
+- [Importance to the DL reserach community?](#importance-to-the-dl-reserach-community)
+- [Possible applications?](#possible-applications)
+- [References](#references)
 
 <!-- vim-markdown-toc -->
 <script type="text/javascript" async
@@ -55,7 +55,8 @@ All the Experiments are done with an assumption that transcribing a speech is th
 
 Architecture choice is based on adversarial forgetting implementation[^ref1]. In place of a the predictor (speech recognition in our case) we use DS2[^ref4] module. The dataset used is CommonVoice verison 1[^data1]. word error rate (WER) metric is used to compare the results. 
 
-1. Expermiment1: In this experiment we train Two different models on two accents combined (USA and England). Total dataset is around 20 hrs. 
+
+<!-- 1. Expermiment1: In this experiment we train Two different models on two accents combined (USA and England). Total dataset is around 20 hrs. 
    + First model is a simple DS2 implementation (WER/CER=0.777/0.388) and,
    + Second model is based on adversarial forgetting framework (WER/CER=0.764/0.384). 
   
@@ -68,7 +69,7 @@ Model2       | 0.895/0.767   | 0.542/0.390|
 
 Both the models are trained on just only 20 hrs of speech. It's clearly visible model2 performs way better compares to model1. 
 
-+ Note: We are in the process of visualizng the network output and in the meantime running experiments on gender and age and noise similar to accent on a large version of comon voice. 
++ Note: We are in the process of visualizng the network output and in the meantime running experiments on gender and age and noise similar to accent on a large version of comon voice.  -->
 
 
 ## Importance to the DL reserach community?  
