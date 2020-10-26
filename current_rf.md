@@ -53,23 +53,25 @@ We can think of the masking function as a preprocessing step before passing it t
 ## Experimentations 
 All the Experiments are done with an assumption that transcribing a speech is the primary task and anything else is the secondary task (classifying the gender and accent of the speech utterance). Thus masking out the information required for the secondary task, which would not affect the primary task.
 
-Architecture choice is based on adversarial forgetting implementation[^ref1]. In place of a the predictor (speech recognition in our case) we use DS2[^ref4] module. The dataset used is CommonVoice verison 1[^data1]. word error rate (WER) metric is used to compare the results. 
+Architecture choice is based on adversarial forgetting implementation[^ref1]. In place of a the predictor (speech recognition in our case) we use DeepSpeech2 DS2[^ref4] module. The dataset used is CommonVoice verison 1[^data1]. word error rate (WER) metric is used to compare the results. 
 
 
-<!-- 1. Expermiment1: In this experiment we train Two different models on two accents combined (USA and England). Total dataset is around 20 hrs. 
-   + First model is a simple DS2 implementation (WER/CER=0.777/0.388) and,
-   + Second model is based on adversarial forgetting framework (WER/CER=0.764/0.384). 
+1. Expermiment1: In this experiment we train Two different models on two accents combined (USA and England). Total dataset is around 20 hrs. 
+   + First model is a simple DS2 implementation (WER=46.6) and,
+   + Second model is based on adversarial forgetting framework (WER=40.6). 
   
-Both the models are compared on two different accents (India and New Zeland) which are not seen in training.  
+Both the models are compared on two different accents (India and New Zeland) which are not seen in training. Moreover we also test the model on libriclean (Lc) and libriother (Lo).
 
-Input        | WER (IN/NZ)   | CER(IN/NZ) |
+Input        | WER (IN/NZ)   | WER (Lc/Lo) |
 :-----------:|:-------------:|:----------:|
-Model1       | 0.994/0.991   | 0.819/0.801|
-Model2       | 0.895/0.767   | 0.542/0.390|
+Model1       |    72.8/45.5  | 67.5/79.4  |
+Model2       |    67.5/39.7  | 62.6/75.6  |   
 
-Both the models are trained on just only 20 hrs of speech. It's clearly visible model2 performs way better compares to model1. 
+Both the models are trained on just only 20 hrs of speech. It's clearly visible model2 performs way better compares to model1. The absolute performance gain is almost of 6% WER and relative gain is 15% WER.
 
-+ Note: We are in the process of visualizng the network output and in the meantime running experiments on gender and age and noise similar to accent on a large version of comon voice.  -->
++ Note: We are in the process of visualizng the network output and in the meantime running experiments on more number of accents with larget dataset on a large version of comon voice.
++ 
+<!-- + gender and age and noise similar to accent on a large version of comon voice.  -->
 
 
 ## Importance to the DL reserach community?  
