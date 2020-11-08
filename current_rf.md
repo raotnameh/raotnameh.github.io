@@ -58,16 +58,16 @@ All the Experiments are done with an assumption that transcribing a speech is th
 Architecture choice is based on adversarial forgetting implementation[^ref1]. In place of a the predictor (speech recognition in our case) we use DeepSpeech2 DS2[^ref4] module. The dataset used is CommonVoice verison 1[^data1]. word error rate (WER) metric is used to compare the results. 
 
 
-1. Expermiment1: In this experiment we train Two different models on two accents combined (USA and England). Total dataset is around 20 hrs. 
-   + First model is a simple DS2 implementation (WER=46.6) and,
-   + Second model is based on adversarial forgetting framework (WER=40.6). 
+1. Expermiment1: In this experiment we train Two different models on two accents combined (USA and England). Total dataset is around 20 hrs. Beam-width is 1024
+   + First model (Model1) is a simple DS2 implementation (WER=40.2) and,
+   + Second model (Model2) is based on adversarial forgetting framework (WER=34.7). 
   
 Both the models are compared on two different accents (India and New Zeland) which are not seen in training. Moreover we also test the model on libriclean (Lc) and libriother (Lo).
 
 Input        | WER (IN/NZ)   | WER (Lc/Lo) |
 :-----------:|:-------------:|:----------:|
-Model1       |    72.8/45.5  | 67.5/79.4  |
-Model2       |    67.5/39.7  | 62.6/75.6  |   
+Model1       |    69.2/39.6  | 63.9/77.1  |
+Model2       |    63.0/33.5  | 58.6/73.4  |   
 
 Both the models are trained on just only 20 hrs of speech. It's clearly visible model2 performs way better compares to model1. The absolute performance gain is almost of 6% WER and relative gain is 15% WER.
 
