@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am a Ph.D. Scholar at [IIIT Delhi](https://iiitd.ac.in/). I work with [Dr. Rajiv Ratn Shah](http://midas.iiitd.edu.in/team/rajiv-ratn-shah.html) at [MIDAS Lab](http://midas.iiitd.edu.in/). I received my B.E from [NSIT](http://www.nsit.ac.in/). 
+I am a PhD Scholar at [IIIT Delhi](https://iiitd.ac.in/). I work with [Dr. Rajiv Ratn Shah](http://midas.iiitd.edu.in/team/rajiv-ratn-shah.html) at [MIDAS Lab](http://midas.iiitd.edu.in/). I received my B.E from [NSIT](http://www.nsit.ac.in/). 
 
 My current research interest are: 
 
