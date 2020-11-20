@@ -18,7 +18,7 @@ Please get in touch if you want to collaborate with me on some interesting resea
 
 # News
 
-- [06/11/2020] [Depth Estimation Using Convolutional Neural Network with Transfer Learning](https://link.springer.com/chapter/10.1007/978-981-15-7571-6_30). Published in Metaheuristic and Evolutionary Computation:  Algo-rithms and Applications. Springer, pp. 649–664.
+- [06/11/2020] [Depth Estimation Using Convolutional Neural Network with Transfer Learning](https://link.springer.com/chapter/10.1007/978-981-15-7571-6_30). Published in Metaheuristic and Evolutionary Computation:  Algorithms and Applications. Springer, pp. 649–664.
 - [01/09/2020] Received Interspeech-2020 grant.
 - [26/07/2020] [End-to-end Named Entity Recognition from English Speech](https://arxiv.org/abs/2005.11184). Accepted at [InterSpeech](http://www.interspeech2020.org/) 2020. 
 - [28/06/2020] [MIDAS at SemEval-2020 Task 10: Emphasis Selection using Label Distribution Learning and Contextual Embeddings](https://drive.google.com/file/d/1sstpC23HZoR_3hEkfJn5eH8xig0VaOXd/view). Accepted at the SemEval workshop, hosting alongside [COLING](https://coling2020.org/) 2020.
