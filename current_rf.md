@@ -25,7 +25,7 @@ title: My current research focus
 
 > Note3: For results please skip to [Experimentations](#experimentations) section. 
 
-> Note4: For a pre-print: (will be released shortly) 
+> Note4: For a [pre-print](https://arxiv.org/pdf/2011.12979.pdf).
 
 ## Introduction
 Here I add updates on the experiments on my current research focus. You would be thinking, what is his resreach focus? TBH, it's nothing fancy but the insights I gained in my 2-3 years of AI journey. In this period I worked on several projects using deep learning (DL) on Speech and NLP related problems. While it was a nice feeling everytime I got a good accuracy or less word error rate (WER) in case of an ASR, I was really enjoying it (until it lasted....just kidding I still fell good everytime we get a better testing accuracy). This feeling led me to use DL here and there and everywhere. Anything you throw at me I'm gonna train a DL based model, that's how exhaustively I was applying it. I was really enjoying the *NOOB* feeling of knowing all about DL. All of this changed after I started testing the trained models on a real time testing examples. The WER I was so proud of dropped and in some cases it as as if the output was just better than random selection (the model was trained on majority of male voice samples and thus worked very poorly on female test samples). Now you would be thinking, which project he is talking about? Well, all of this happend when I was working on a speech recognition project in collaboration with Humonics global pvt. ltd. The system was to be built for realtime use cases and it did not work as expected (I did not fell good for sometime, the models I was so proud of let me down). All of this, led me to debug the models and go back to the basics of math behind the models. Which in turn led me to understand their **shortcomings** and why I was facing all those **problems** during the deployment, which I hope to overcome during my Ph.D. at IIITD. 
@@ -69,11 +69,9 @@ Input        | WER (IN/NZ)   | WER (Lc/Lo) |
 Model1       |    69.2/39.6  | 63.9/77.1  |
 Model2       |    63.0/33.5  | 58.6/73.4  |   
 
-Both the models are trained on just only 20 hrs of speech. It's clearly visible model2 performs way better compares to model1. The absolute performance gain is almost of 6% WER and relative gain is 15% WER.
+Both the models are trained on just only 22 hrs of speech. It's clearly visible model2 performs way better compares to model1. The absolute performance gain is almost of 6% WER and relative gain is 15% WER.
 
-+ Note: We are in the process of visualizng the network output and in the meantime running experiments on more number of accents with larget dataset on a large version of comon voice.
-+ 
-<!-- + gender and age and noise similar to accent on a large version of comon voice.  -->
++ For more results please read the [paper](https://arxiv.org/pdf/2011.12979.pdf).
 
 
 ## Importance to the DL reserach community?  
