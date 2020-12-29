@@ -7,7 +7,7 @@ I am a PhD Scholar at [IIIT Delhi](https://iiitd.ac.in/). I work with [Dr. Rajiv
 
 My current research interest are: 
 
-1. Studying how to make DL based systems robust to unwanted features (noise, accents, gender, age, etc), and
+1. Studying how to make DL based systems [robust to unwanted features (noise, accents, gender, age, etc)](https://arxiv.org/abs/2011.12979), and
 2. Working with low resource. What I mean when I say low resource?
    1. Learning Robust representations of low frequency important examples in a large dataset and, 
    2. Secondly, learning generalize representations from low resource language/dataset particulary in Speech (I,m also intersted in leveraging multiple datasets to learn general representations). 
