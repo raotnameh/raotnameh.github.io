@@ -8,8 +8,8 @@ Here is a list of courses that I have/am taken/taking during my Ph.D.
 
 ###  Courses Taken |  Courses Tught
 
-> Currently taking these courses.
-#### Convex optimizaiton
+> Currently taking these courses. |
+#### Convex optimizaiton          |
 
 
 
