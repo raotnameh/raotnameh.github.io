@@ -29,7 +29,7 @@ Here is a list of courses that I have/am taken/taking during my Ph.D.
     4. Sun, Baochen, Jiashi Feng, and Kate Saenko. "Correlation alignment for unsupervised domain adaptation." In Domain Adaptation in Computer Vision Applications, pp. 153-171. Springer, Cham, 2017.
     5. You, Kaichao, Mingsheng Long, Zhangjie Cao, Jianmin Wang, and Michael I. Jordan. "Universal domain adaptation." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2720-2729. 2019. 
   + **Active learning**, and 
-  + **Self-supervised learning. **
+  + **Self-supervised learning**
     1.  
 
 
