@@ -8,7 +8,7 @@ Here is a list of courses that I have/am taken/taking during my Ph.D.
 ## Courses Taken at IIIT Delhi
 
 
-+ Currently taking this course.
+> Currently taking these courses.
   
     ### Advance Machine Learning
     + Since it's an advance course, we discuss current SOTA reserach papers. I will be putting up the list of papers I read in this course.
