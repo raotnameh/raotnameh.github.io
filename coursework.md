@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Coursework
+title: Coursework and Teaching
 ---
 
 Here is a list of courses that I have/am taken/taking during my Ph.D. 
