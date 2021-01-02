@@ -3,17 +3,17 @@ layout: page
 title: Coursework
 ---
 
-Here is a list of courses that I have/am taken/taking during my Ph.D.. 
+Here is a list of courses that I have/am taken/taking during my Ph.D. 
 
 ## Courses Taken at IIIT Delhi
 
+> Currently taking this course.
 ### Advance Machine Learning
-Currently taking this course. 
 + Since it's an advance course, we discuss current SOTA reserach papers. I will be putting up the list of papers I read in this course.
 + Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/AML_Course)
 
 ### Natural Language Processing
-Currently taking this course. 
+ 
 + Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/NLP_LECTURE)
 
 <!-- 
