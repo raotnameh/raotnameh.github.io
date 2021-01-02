@@ -13,7 +13,7 @@ Here is a list of courses that I have/am taken/taking during my Ph.D.
 
 
 
-1. ### Advance Machine Learning (AML)
+### Advance Machine Learning (AML)
 + Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/AML_Course)
 + Since it's an advance course, we discuss current SOTA reserach papers. 
 + In this course, we discussed 5 topics: 
@@ -31,7 +31,7 @@ Here is a list of courses that I have/am taken/taking during my Ph.D.
   5. *Self-supervised learning*
     +  
 
-2. ### Natural Language Processing
+### Natural Language Processing
 + Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/NLP_LECTURE)
 
 <!-- 
