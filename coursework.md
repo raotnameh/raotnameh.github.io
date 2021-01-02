@@ -18,11 +18,10 @@ Here is a list of courses that I have/am taken/taking during my Ph.D.
 
 >
 ### Advance Machine Learning (AML)
-    + Since it's an advance course, we discuss current SOTA reserach papers. I will be putting up the list of papers I read in this course.
-    + Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/AML_Course)
-    
++ Since it's an advance course, we discuss current SOTA reserach papers. I will be putting up the list of papers I read in this course.
++ Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/AML_Course)    
 ### Natural Language Processing
-    + Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/NLP_LECTURE)
++ Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/NLP_LECTURE)
 
 <!-- 
 ## Teaching Assistantship at IIIT Delhi -->
