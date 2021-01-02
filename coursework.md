@@ -5,7 +5,7 @@ title: Coursework
 
 Here is a list of courses that I have/am taken/taking during my Ph.D. 
 
-## Courses Taken at IIIT Delhi
+## Courses Taken at IIIT Delhi.
 
 
 + Currently taking this course.
