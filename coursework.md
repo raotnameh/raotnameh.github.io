@@ -9,18 +9,12 @@ Here is a list of courses that I have/am taken/taking during my Ph.D.
 
 
 > Currently taking these courses.
-### Advance Machine Learning (AML)
-+ Since it's an advance course, we discuss current SOTA reserach papers. I will be putting up the list of papers I read in this course.
-+ Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/AML_Course)
-### Natural Language Processing
-+ Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/NLP_LECTURE)
+##### Convex optimizaiton
 
-
->
-### Advance Machine Learning (AML)
+#### Advance Machine Learning (AML)
 + Since it's an advance course, we discuss current SOTA reserach papers. I will be putting up the list of papers I read in this course.
 + Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/AML_Course)    
-### Natural Language Processing
+#### Natural Language Processing
 + Link to the assignments done by me for this course, [GitHub](https://github.com/raotnameh/NLP_LECTURE)
 
 <!-- 
