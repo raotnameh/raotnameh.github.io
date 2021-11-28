@@ -9,5 +9,5 @@ title: Interested-Links
  
 1. [The bitter leasson--by Rich sutton](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 2. [On the importance of the independent and identically distributed (i.i.d.) assumption in statistical learning](https://stats.stackexchange.com/questions/213464/on-the-importance-of-the-i-i-d-assumption-in-statistical-learning)
-3. 
+3. [Blogs of Guilherme Kunigami](https://www.kuniga.me)
 
