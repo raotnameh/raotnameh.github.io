@@ -10,4 +10,6 @@ title: Interested-Links
 1. [The bitter leasson--by Rich sutton](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 2. [On the importance of the independent and identically distributed (i.i.d.) assumption in statistical learning](https://stats.stackexchange.com/questions/213464/on-the-importance-of-the-i-i-d-assumption-in-statistical-learning)
 3. [Blogs of Guilherme Kunigami](https://www.kuniga.me)
+4. [Notes on Noise Contrastive Estimation and Negative Sampling](https://arxiv.org/pdf/1410.8251.pdf)
+5. [A Gentle Introduction to Noise Contrastive Estimation](https://www.kdnuggets.com/2019/07/introduction-noise-contrastive-estimation.html)
 
