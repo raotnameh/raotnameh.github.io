@@ -12,4 +12,4 @@ title: Interested-Links
 3. [Blogs of Guilherme Kunigami](https://www.kuniga.me)
 4. [Notes on Noise Contrastive Estimation and Negative Sampling](https://arxiv.org/pdf/1410.8251.pdf)
 5. [A Gentle Introduction to Noise Contrastive Estimation](https://www.kdnuggets.com/2019/07/introduction-noise-contrastive-estimation.html)
-
+6. [GMM](https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/)
