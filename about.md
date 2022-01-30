@@ -16,7 +16,7 @@ I'm applying these 2 research ideas on Speech Recognition Systems (at least for 
 
 Please get in touch if you want to collaborate with me on some interesting research opportunities. My email ID is hemantya [at] iiitd [dot] ac [dot] in.
 
-If someone aske me where I wanna be at the moment? It would be **China** and not **USA**.
+If someone asks me where I wanna be at the moment? It would be **China** and not **USA**.
 <!-- 
 # News
 
