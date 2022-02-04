@@ -1,0 +1,125 @@
+<hr>
+<p>layout: post title: Automatic Speech Recognition(ASR)</p>
+<hr>
+<p>The whole pipeline to convert speech to text is known as Automatic Speech Recognition (ASR), which formes the basis for Google&#39;s voice assistant sysytems. Let&#39;s dive deep into, how to build a basic one. </p>
+<p>In this article, you&#39;ll learn about the intuition behind the ASR. The article is divided into the following sections:</p>
+<ul>
+    <li>Introduction</li>
+    <li>ASR pipeline</li>
+    <li>Understanding Individual elements of ASR pipeline</li>
+    <li>Handling Out of Vocabulary Words (OOV) words </li>
+</ul>
+<h1 id="introduction">Introduction</h1>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<p>Speech Recognition is a sequence labelling task, compared to image labelling where samples are independent. The fundamental equation of speech is \(P(w/o)\) i.e. for given observations O = [o<sub>1</sub>,o<sub>2</sub>,.....,o<sub>n</sub>], we seek the
+    most likley word sequence W = [w<sub>1</sub>,w<sub>2</sub>,.....,w<sub>n</sub>] \[W = argmax (P(W / O)\]</p>
+<p>Like so many other tasks, <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes theorem </a> comes to our rescue. According to bayes theorem, \(P(\frac{W}{O})\) can be written as: \[P(\frac{W}{O}) = \frac{P(\frac{O}{W}) <em> p(W)}{P(O)},\]
+\(P(O)\) is a marginalizing term or a constant for a particular given data. Therfore, \[P(\frac{W}{O}) \approx  P(\frac{O}{W}) </em> p(W).\]<br><br /></p>
+<ul>
+    <li>\(P(O / W) \): It means, given the observed <strong>word sequence W</strong>, the one Probability density function (PDF): \(f(O / \theta) \) among all the PDF&#39;s that are most likely to have produced the <strong>data O</strong>. <strong>\(\theta\)</strong>        is a learnable parameter and how we do that?? There are a lot of techquies to use, but I will be talking about Macimum Likelihood estimation or MLE (more on this later).
+        <br />
+        <br /> what do I mean by all the other PDF&#39;s? Let&#39;s take an example of gaussian distribution. why? because it will be easy for us in the math department. The gaussian distribution formualtion and it&#39;s plot can be seen in Fig. 1. As
+        shown in fig for different values of \(\mu \) and \(\sigma \) we can get different plots or I would say different PDF&#39;s. therefore from each distribution we can get some data values which satisfies the given distribution or inversley, a specific
+        set dataset can produce a PDF from a family of PDF&#39;s.</li>
+</ul>
+<p align='center'>
+    <img src="../assets/images/asr/gaussian.jpg" height="400" width="600">
+    <figcaption align='center'>Fig.1 Gaussian Distribution.</figcaption>
+</p>
+
+<p><br /></p>
+<ul>
+    <li>\(P(w)\): It means, what is the probability of existing a particular word sequence. for example, the probability of a word sequence <strong>I know of</strong> is far greater than <strong>I no of</strong>. These probabilities can be calculated using
+        a N-gram Toolkit or a Neural Language model.<br>Popular N-gram language model toolkits are <a href="https://github.com/kpu/kenlm">KenLm</a> and <a href="http://www.speech.sri.com/projects/srilm/">SRILM</a>. </li>
+</ul>
+<p><br /> Word error rate (<strong>WER</strong>), Character error rate (<strong>CER</strong>) and Sentence error rate (<strong>SER</strong>) are some of the metrices to <em>Measure the performance</em> of ASR system. </p>
+<p><strong>WER</strong>: It&#39;s computed using &quot;<a href="https://www.python-course.eu/levenshtein_distance.php">String edit distance</a>&quot; or &quot;<a href="https://people.cs.pitt.edu/~kirk/cs1501/Pruhs/Spring2006/assignments/editdistance/Levenshtein%20Distance.htm">Levenstein distance</a>.&quot;
+    It is,</p>
+<p>\[WER = \frac{N<sub>sub</sub> + N<sub>ins</sub> + N<sub>del</sub>}{N<sub>ref</sub>}\]. Where, </p>
+<p>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    \begin{equation} WER = \dfrac{N_s + N_i + N_d}{N_r} \end{equation}
+</p>
+<ul>
+    <li>N<sub>s</sub> = No. of substitutions, </li>
+    <li>N<sub>i</sub> = No. of insertions,</li>
+    <li>N<sub>d</sub> = No. of deletions,</li>
+    <li>N<sub>r</sub> = Words in the reference Transcription. </li>
+</ul>
+<p>i.e. the no of substitutions, insertions and deletions of <strong>WORDS</strong> needed to get from the reference to hypothesis (ASR system best guess of the transcript). </p>
+<p><strong>CER</strong>: Everythinng is same, except instead of WORDS it considers <strong>CHARACTERS</strong> for all the calcualtions in the above formula after removing all the spaces in the sentence. </p>
+<p><strong>SER</strong>: It&#39;s very simple to calculate. according tothe SER defination, even if a single word in a sentence is incorrect it wil label it as incorrect hypothesis. SER is used as <em>proportion of incorect sentences to the total number of sentences</em>.
+    For example, if half of teh predicted sentences are incorrect, then the SER will be 50\%.</p>
+<h2 id="asr-pipeline">ASR pipeline</h2>
+<p>ASR Pipeline contains mainly 2 main components:</p>
+<ul>
+    <li>Acoustic Model and,</li>
+    <li>Language Model (LM) <br /> </li>
+</ul>
+<p>The acoustic model is responsible for calculating the \(P(O / W) \) and the LM calculates the \(P(W) \). Language model plays an important role, when there is ambguity in the predicted text. for example, <strong>I <em><em>__</em></em> you</strong>, if
+    you have to choose between <strong><em>NO</em></strong> and <strong><em>KNOW</em></strong> which one whould you choose? Of course the second one, but why ? I would say, you have language understanding as one of your cognitive skills,that&#39;s how
+    you did it. Therefore, LM helps in making sense for a given word sequence. <br />
+    <br /> let&#39;s look at a diagram of the whole pipeline, as shown in Fig. 2:</p>
+<p align='center'>
+    <img src="../assets/images/asr/asr_pipeline.png" height="1000" width="800">
+    <figcaption align='center'>Fig.2 ASR Pipeline.</figcaption>
+</p>
+
+
+<h2 id="understanding-individual-elements-of-asr-pipeline">Understanding Individual elements of ASR pipeline</h2>
+<h3 id="audio">Audio</h3>
+<p>Input is a <strong>raw</strong> Audio signal/waveform, which is just the pressure waves recorded/stored digitally at a certain interval of time, also called a sampling rate/frequency as can be seen in Fig. 3. To store an audio digitally, we sample it
+    at some predefined sampling rate and a certain bit depth (8 or 16). The right fig shows a digital signal and left fig shows an analog signal. </p>
+<p align='center'>
+    <img src="../assets/images/asr/audio.jpg" height="400" width="600">
+    <figcaption align='center'>Fig.3 Audio.</figcaption>
+</p>
+
+<p>
+    <font size="2"> <em>Just for the information, humans can hear sounds at frequencies from about 20 Hz to 20,000 Hz, though we hear sounds best from 1,000 Hz to 5,000 Hz, where human speech is centered.</em> </font>
+</p>
+<h3 id="spectrogram">Spectrogram</h3>
+<p>It&#39;s a better representation of an Audio signal to fed a Neural Network. It combines both time and frequency information. There is a saying in Machine learning communty: <strong>Good Features make problems TRIVIAL</strong>.</p>
+<h3 id="acoustic-model">Acoustic Model</h3>
+<p>Acoustic models calculates/determines the Likelihood of output(Y) conditioned on the given parameters <strong>{\(\theta\)}</strong>. It is a specific PDF which could have most likley produced the data. <strong>{\(\theta\)}</strong> is the learnable parameter.
+    we use gradient descent to learn the parameters by backproping the error(WER) for each set of data.<br>The input is either Raw audio or spectrogram and the output is the predicted transcription.For each input Acoustic model ouputs Likelihood of a
+    set of Word sequences i.e. \(L(Y/X;\theta)\)</p>
+<h3 id="connectionist-temporal-classification-ctc-">Connectionist temporal classification (CTC)</h3>
+<p>ctc is a scoring function to calculate the loss of an continous ouput without any Alignment information given. It takes into account all the possible alignments possible for a given output sentence using a Heuristic approach. A very informative blog on
+    <a href="https://distill.pub/2017/ctc/">ctc</a> is written by Awni Hannun. </p>
+<h3 id="decoder-">Decoder :</h3>
+<p>Decoder plays an important role in the ASR pipeline. It helps in getting a word error rate (WER) from 30-40 to under 15 or in some domain specific cases upto under 10 percent (%). The decoding process is of two types:</p>
+<ul>
+    <li>Without the Language model (LM)</li>
+    <li>With the Character level Language model (CLM)</li>
+</ul>
+<h2 id="handling-oov-words">Handling OOV words</h2>
+<p>There are Two ways to handle out of vocabulary(OOV) words:</p>
+<ul>
+    <li>Use only the Acoustic model output without any Language Model (LM) and.</li>
+    <li>Use of Character level Language Model.</li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+    <li>
+        <p><a href="https://drive.google.com/open?id=18j58woXz5WUgkHaOO3b7byRWck5Oyzg7">My paper</a></p>
+    </li>
+    <li>
+        <p><a href="https://arxiv.org/pdf/1412.5567.pdf">Deepspeech1 paper</a></p>
+    </li>
+    <li>
+        <p><a href="https://arxiv.org/pdf/1512.02595.pdf">Deepspeech2 paper</a></p>
+    </li>
+    <li>
+        <p><a href="https://www.cs.toronto.edu/~graves/icml_2006.pdf">CTC paper</a></p>
+    </li>
+    <li>
+        <p><a href="https://en.wikipedia.org/wiki/Spectrogram">Spectrogram</a></p>
+    </li>
+</ul>
+<p>If I have left someone, please let me know. I willadd the same to the refrence.</p>
+<h2 id="my-paper">My paper</h2>
+<iframe src="../assets/images/asr/ASR_BigMM.pdf" width="700" height="800">
